@@ -6,7 +6,7 @@ import torch
 # Neo4j connection details
 URI = "bolt://localhost:7687"  # Replace with your Neo4j URI
 USER = "neo4j"                 # Replace with your Neo4j username
-PASSWORD = "sneha"             # Replace with your Neo4j password
+PASSWORD = "xyz"             # Replace with your Neo4j password
 
 # Connect to Neo4j
 driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
